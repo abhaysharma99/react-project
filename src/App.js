@@ -26,13 +26,11 @@ function App(){
                     </li>
                 </ul>
             </nav>
-            <div className="container">
             <Routes>
                 <Route path="/" element={<Jsx />}></Route>
                 <Route path="/binding" element={<Databinding />}></Route>
                 <Route path="/users" element={<Users />}></Route>
             </Routes>
-            </div>
 
         </div>
     )
