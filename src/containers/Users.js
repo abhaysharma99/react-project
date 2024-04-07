@@ -14,7 +14,7 @@ function Users(){
             <ul>
                 {
                     users.map((user,index) => {
-                        return <li>{user.name},{user.email}</li>
+                        return <li key={index}>{user.name},{user.email}</li>
                     })
                 }
             </ul>
